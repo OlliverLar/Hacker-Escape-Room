@@ -22,11 +22,11 @@
     width: 7ch;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 940px) {
     .banner-title {
         font-size: 3rem;
         margin-top: 30px;
-        width: 28ch;
+        width: 20ch;
     }
 }
 
@@ -37,7 +37,7 @@
     top: 18px;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 940px) {
     .line-figure {
         display: none;
     }   
@@ -48,7 +48,7 @@
     justify-content: space-evenly;
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 940px) {
     .site-options {
         display: flex;
         margin-top: 50px;
@@ -69,8 +69,770 @@
 
 .hackerImg {
     width: 100%;
-    height: 250px;
 }
+
+@media screen and (min-width: 940px) {
+    .hackerChallengesTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+}
+.on-site-top {
+    text-decoration: none;
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-bottom: 15px;
+    padding-right: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    background-color: #8ACFE5;
+    border-radius: 4px;
+    font-weight: 900;
+    color: black;
+    font-style: bold;
+    font-size: 1.3em;
+}
+
+@media screen and (min-width: 940px) {
+    .on-site-top {
+        grid-column-start: 7;
+        position: relative;
+        margin-left: 15px;
+        bottom: 58px;
+    }
+}
+
+
+.online-top {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #36769D;
+}
+
+@media screen and (min-width: 940px) {
+    .online-top {
+        position: relative;
+        grid-column-start: 6;
+        grid-row-start: 1;
+        text-decoration: none;
+        padding-top: 15px;
+        padding-left: 50px;
+        padding-bottom: 15px;
+        padding-right: 35px;
+        width: 190px;
+        background-color: #E3170A;
+        border-radius: 4px;
+        font-weight: 900;
+        color: #FFFFFF;
+        font-style: bold;
+        font-size: 1.3em;
+        margin-left: 50px;
+        bottom: 60px;
+    }
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    margin-top: 60px;
+}
+
+
+.reviewerOne {
+    display: grid;
+    position: relative;
+    margin-left: -20px;
+    margin-right: 20px;
+    grid-column-start:1;
+    height: 50px;
+}
+.textOne {
+    display: grid;
+    position: relative;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+.reviewerInfoOne {
+    display: grid;
+    position: relative;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 12;
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+.reviewTwo {
+    display: none;
+}
+
+.reviewerTwo {
+    display: none;
+}
+
+.textTwo {
+    display: none;
+}
+
+.reviewerInfoTwo {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 940px) {
+    
+    .reviewerOne {
+        grid-column-start: 2;
+        height: 70px;
+        margin-left: 50px;
+    }
+   
+    .textOne {
+        grid-column-start: 3;
+        grid-column-end: 6;
+    }
+    
+    .reviewerInfoOne {
+        grid-column-start: 3;
+        margin-top: 0px;
+    }
+    
+}
+
+@media screen and (min-width: 940px) {
+    
+
+    .reviewerTwo {
+        display: grid;
+        grid-row-start: 1;
+        grid-column-start: 7;
+        height: 70px;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+   
+    .textTwo {
+        display: grid;
+        grid-column-start: 8;
+        grid-column-end: 11;
+        font-size: 1.1em;
+        font-style: italic;
+        margin-left: 10px;
+    }
+    
+    .reviewerInfoTwo {
+        display: grid;
+        grid-row-start:2;
+        grid-column-start: 8;
+        grid-column-end: 12;
+        font-size: 0.8em;
+        margin-left: 10px;
+    }
+    
+}
+
+
+.popularChlngs {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-weight: lighter;
+    
+}
+
+
+.currentlyPopular {
+    overflow: scroll;
+    margin-top: 55px;
+    display: flex;
+}
+
+.firstCard, .secondCard, .thirdCard {
+    margin-left: -40px;
+    margin-right: -10px;
+    margin-top: 10px;
+    height: 370px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.chlng {
+    width: 100%;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.roomTitle {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-weight: lighter;
+    
+}
+
+.starReview {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    bottom: 20px;
+}
+
+.starFilled {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.starUnfilled {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.participants {
+    position: relative;
+    margin-left: 30px;
+    bottom: 35px;
+    font-size: 0.9em;
+}
+
+.roomDescription {
+    position: relative;
+    bottom: 70px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.bookRoom {
+    position: relative;
+    color: #FFFFFF;
+    font-weight: bold;
+    bottom: 60px;
+    left: 140px;
+    background-color: #E3170A;
+    text-decoration: none;
+    border-radius: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (min-width: 1300px) {
+    .currentlyPopular::-webkit-scrollbar {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .firstCard, .secondCard, .thirdCard {
+        margin-left: 25%;
+        height: 600px;
+        width: 450px;
+    }
+    .roomTitle {
+        font-size: 2.5em;
+    }
+    .starReview {
+        bottom: 30px;
+    }
+    .starFilled {
+        height: 20px;
+    }
+    .starUnfilled {
+        height: 20px;
+    }
+    .participants {
+        font-size: 1.2em;
+        left: 150px;
+        bottom: 45px;
+    }
+    .roomDescription {
+        font-size: 1.5em
+    }
+    .bookRoom {
+        font-size: 1.2em;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        left: 230px;
+        bottom: 40px;
+    }
+}
+@media screen and (min-width: 940px) {
+    .hackerChallengesBottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+}
+.on-site-bottom {
+    text-decoration: none;
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-bottom: 15px;
+    padding-right: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+    background-color: #8ACFE5;
+    border-radius: 4px;
+    font-weight: 900;
+    color: black;
+    font-style: bold;
+    font-size: 1.3em;
+}
+
+@media screen and (min-width: 940px) {
+    .on-site-bottom {
+        margin-top: 98px;
+        grid-column-start: 7;
+        position: relative;
+        margin-left: 15px;
+        bottom: 58px;
+    }
+}
+
+
+.online-bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: #36769D;
+}
+
+@media screen and (min-width: 940px) {
+    .online-bottom {
+        margin-top: 100px;
+        position: relative;
+        grid-column-start: 6;
+        grid-row-start: 1;
+        text-decoration: none;
+        padding-top: 15px;
+        padding-left: 50px;
+        padding-bottom: 15px;
+        padding-right: 35px;
+        width: 190px;
+        background-color: #E3170A;
+        border-radius: 4px;
+        font-weight: 900;
+        color: #FFFFFF;
+        font-style: bold;
+        font-size: 1.3em;
+        margin-left: 50px;
+        bottom: 60px;
+    }
+}
+
+.midSectionStory {
+    margin-top: 70px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    background-color: #011827;
+}
+
+.storyText {
+    justify-content: center;
+    font-size: 1.3em;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 33px;
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    color: #FFFFFF;
+}
+
+.readFullStory {
+    color: #8ACFE5;
+    text-decoration: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #011827;
+    outline: #8ACFE5;
+    font-size: 1.2em;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    margin-left: 60px;
+    margin-right: 60px;    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media screen and (min-width: 940px){
+    .midSectionStory {
+        display: flex;
+        height: 600px;
+    }
+    .storyText {
+        display: flex;
+        font-size: 2em;
+        text-align: center;
+        justify-content: center;
+        margin-right: 200px;
+        margin-left: 200px;
+        margin-top: 110px;
+        line-height: 42px;
+    }
+    .readFullStory {
+        margin-left: 35%;
+        margin-right: 35%;
+        font-size: 1.5em;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+    
+}
+
+.twoComputer {
+    width: 100%;
+}
+
+.playFriends {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.6em;
+}
+
+.playFriendsInfo {
+    position: relative;
+    bottom: 20px;
+    margin-left: 20px;
+    margin-right: 35px;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+.bookToday {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    background-color: #E3170A;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 4px;
+
+}
+
+.womanComputer {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.playOnline {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.6em;
+    margin-top: 60px;
+}
+
+.playOnlineInfo {
+    position: relative;
+    bottom: 20px;
+    margin-left: 20px;
+    margin-right: 35px;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+.seeAllChallenges {
+    position: relative;
+    margin-left: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    background-color: #E3170A;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-radius: 4px;
+}
+
+@media screen and (min-width: 940px){
+
+    
+    .firstHalfImage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .twoComputer {
+        grid-column: 1/1;
+        grid-row: 1/1;
+        min-height: 100%;
+
+    }
+        
+
+    .playFriends {
+        grid-column: 2/2;
+        grid-row: 1/1;
+        top: 5%;
+        margin-left: 15%;
+        margin-right: 30%;
+        font-size: 1.7em;
+        
+    }
+
+    .playFriendsInfo {
+        grid-column: 2/2;
+        grid-row: 1/1;
+        top: 35%;
+        font-size: 1.5em;
+        margin-left: 15%;
+        margin-right: 30%;
+    }
+
+    .bookToday {
+        grid-column: 2/2;
+        grid-row: 1/1;
+        height: 24px;
+        top: 80%;
+        margin-left: 15%;
+        max-width: 150px;
+    }
+
+
+    .womanComputer {
+        grid-column: 2/2;
+        grid-row: 2/2;
+        min-height: 100%;
+        margin-top: 0px;
+
+    }
+
+    .playOnline {
+        grid-column: 1/2;
+        grid-row: 2/2;
+        margin-left: 15%;
+        margin-right: 30%;
+        font-size: 1.7em;
+
+    }
+
+    .playOnlineInfo {
+        grid-column: 1/2;
+        grid-row: 2/2;
+        top: 35%;
+        font-size: 1.5em;
+        margin-left: 15%;
+        margin-right: 30%;
+    }
+
+    .seeAllChallenges {
+        grid-column: 1/2;
+        grid-row: 2/2;
+        height: 24px;
+        top: 80%;
+        margin-left: 15%;
+        max-width: 150px;
+
+    }
+}
+
+    .footOfPage {
+        margin-top: 130px;
+        display: flex;
+        flex-direction: column;
+        background-color: #011827;
+        font-size: 1.1em;
+    }
+
+    .footerEsc {
+        margin-top: 80px;
+        margin-left: 20px;
+        display: flex;
+        color: #FFFFFF;
+    }
+
+    .escFooterInfo {
+        margin-left: 20px;
+        color: #FFFFFF;
+    }
+
+    .siteMap {
+        margin-left: 20px;
+        color: #FFFFFF;
+    }
+
+    .theStory {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .contactUs {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .legal {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .footerPlayOnline {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .footerPlayOnSite {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .footerSocials {
+        margin-left: 20px;
+        color: #FFFFFF;
+    }
+
+    .footerFacebook {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .footerInstagram {
+        margin-left: 20px;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    
+    .footerTwitter {    
+        margin-left: 20px;
+        text-decoration: none;
+        color: #FFFFFF;
+        margin-bottom: 45px;
+    }
+
+    @media screen and (min-width: 940px) {
+       
+        .footOfPage {
+            height: 400px;
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: repeat(12, 1fr)
+        }
+    
+        .footerEsc {
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 1;
+            grid-row-end: 13;
+        }
+
+        .escFooterInfo {
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 13;
+        }
+    
+        .siteMap {
+            margin-top: 80px;
+            grid-column-start: 7;
+            grid-column-end: 9;
+            grid-row: 1;
+        }
+    
+        .theStory {
+            grid-column-start: 7;
+            grid-column-end: 9;
+        }
+    
+        .contactUs {
+            grid-column-start: 7;
+            grid-column-end: 9;
+        }
+    
+        .legal {
+            grid-column-start: 7;
+            grid-column-end: 9;
+        }
+    
+        .footerPlayOnline {
+            grid-row-start: 5;
+            grid-column-start: 7;
+            grid-column-end: 9;
+        }
+    
+        .footerPlayOnSite {
+            grid-row-start: 6;
+            grid-column-start: 7;
+            grid-column-end: 9;
+        }
+    
+        .footerSocials {
+            margin-top: 80px;
+            grid-column-start: 9;
+            grid-column-end: 11;
+            grid-row: 1;
+        }
+    
+        .footerFacebook {
+            grid-row-start: 2;
+            grid-column-start: 9;
+            grid-column-end: 11;
+        }
+    
+        .footerInstagram {
+            grid-row-start: 3;
+            grid-column-start: 9;
+            grid-column-end: 11;
+        }
+        
+        .footerTwitter { 
+            grid-row-start: 4;   
+            grid-column-start: 9;
+            grid-column-end: 11;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -93,6 +855,10 @@ body {
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
     margin: 0;
+}
+
+html, body{
+    overflow-x: hidden;
 }
 
 ul {
