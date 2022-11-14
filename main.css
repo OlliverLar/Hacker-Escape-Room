@@ -30,17 +30,94 @@
     }
 }
 
-.line-figure {
-    max-width: 52px;
-    position: absolute;
-    right: -10px;
-    top: 18px;
+.phoneMenu {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 1;
+    animation: fadeIn 0.3s;
 }
 
+.menuOptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: #011827;
+    top: 10px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    flex-direction: column;
+    line-height: 70px;
+    font-size: 1.5em;  
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0%;
+    }
+    100% { opacity: 100%; 
+    }
+}
+.playOnlinePhoneLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.playOnsitePhoneLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.theStoryPhoneLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.contactUsPhoneLink {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.menuHamburgerButton {
+    position: relative;
+    display: block;
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    float: right;
+    margin-right: 50px;
+    margin-top: -73px;
+    border: none;
+}
+
+.xMarkButton {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    font-size: 3em;
+}
+
+
 @media screen and (min-width: 940px) {
-    .line-figure {
+    .menuHamburgerButton, .phoneMenu {
         display: none;
-    }   
+    }
 }
 
 .site-options {
